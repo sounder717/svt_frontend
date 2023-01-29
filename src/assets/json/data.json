@@ -1,0 +1,93 @@
+[
+  {
+    "type": "team",
+    "format": "odi",
+    "team_player": "india",
+    "ranking": "1",
+    "rating": "333"
+  },
+  {
+    "type": "team",
+    "format": "odi",
+    "team_player": "aus",
+    "ranking": "2",
+    "rating": "183"
+  },
+  {
+    "type": "team",
+    "format": "test",
+    "team_player": "india",
+    "ranking": "2",
+    "rating": "33"
+  },
+  {
+    "type": "team",
+    "format": "test",
+    "team_player": "aus",
+    "ranking": "1",
+    "rating": "143"
+  },
+  {
+    "type": "team",
+    "format": "t20",
+    "team_player": "india",
+    "ranking": "3",
+    "rating": "3343"
+  },
+  {
+    "type": "team",
+    "format": "t20",
+    "team_player": "aus",
+    "ranking": "2",
+    "rating": "183"
+  },
+
+  {
+    "type": "player",
+    "format": "odi",
+    "team_player": "virat",
+    "ranking": "1",
+    "rating": "333",
+    "player_type": "batting"
+  },
+  {
+    "type": "player",
+    "format": "odi",
+    "team_player": "rohit",
+    "ranking": "2",
+    "rating": "183",
+    "player_type": "batting"
+  },
+  {
+    "type": "player",
+    "format": "test",
+    "team_player": "kl",
+    "ranking": "2",
+    "rating": "33",
+    "player_type": "all rounder"
+  },
+  {
+    "type": "player",
+    "format": "test",
+    "team_player": "llll",
+    "ranking": "1",
+    "rating": "143",
+    "player_type": "bowling"
+  },
+  {
+    "type": "player",
+    "format": "t20",
+    "team_player": "inddffddia",
+    "ranking": "3",
+    "rating": "3343",
+    "player_type": "batting"
+  },
+  {
+    "type": "player",
+    "format": "t20",
+    "team_player": "avdffus",
+    "ranking": "2",
+    "rating": "183",
+    "player_type": "all rounder"
+  }
+]

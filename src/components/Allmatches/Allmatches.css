@@ -1,0 +1,85 @@
+.all {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+.all .all_comman {
+  width: 70%;
+}
+.all .all_comman .sub_button {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.all .all_comman .sub_button .sub_bu {
+  width: 200px;
+  height: 40px;
+  background-color: azure;
+  border: none;
+  font-size: 1.5rem;
+}
+.all .all_comman .all_news {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+}
+.all .all_comman .all_news .all_news_content {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 200px;
+  background-color: #fff;
+  padding: 20px;
+}
+.all .all_comman .all_news .all_news_content .all_news_img {
+  width: 25%;
+  height: 150px;
+  border-radius: 20px;
+}
+.all .all_comman .all_news .all_news_content .all_news_title {
+  color: black;
+  font-size: 2rem;
+  margin-left: 10px;
+}
+.all .all_Ranking {
+  width: 30%;
+}
+.all .all_Ranking .Ranking_button {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all .all_Ranking .Ranking_button .ranking_bu {
+  min-width: 50px;
+  margin: 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.all .all_Ranking .Ranking_button .ranking_bu.active {
+  background-color: #045de9;
+  color: #fff;
+}
+.all .all_Ranking .Ranking_button .ranking_bu:hover {
+  background-color: #045de9;
+  color: #fff;
+}
+.all .all_Ranking .Ranking_button .ranking_bu:active {
+  background-color: #045de9;
+  color: #fff;
+}
+.all .all_Ranking table {
+  text-align: center;
+}
+.all .all_Ranking table thead th {
+  min-width: 100px;
+}/*# sourceMappingURL=Allmatches.css.map */
