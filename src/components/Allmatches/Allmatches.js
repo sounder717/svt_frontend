@@ -2,17 +2,9 @@ import React, { useEffect, useState } from "react";
 import Videos from "../Videos/Videos";
 import "./Allmatches.css";
 import rankdata from "../../assets/json/data.json";
-import contentdata from "../../assets/json/content.json";
+// import contentdata from "../../assets/json/content.json";
 
 function Allmatches() {
-  useEffect(() => {
-    fetch("https://svt.onrender.com/svtjson ")
-      .then((response) => response.json())
-      .then((data) => console.log(data))
-      .catch((err) => {
-        console.log(err.message);
-      });
-  }, []);
   const fil = rankdata.filter((e, i) => {
     return e.format.includes("odi") && e.type.includes("team");
   });
@@ -25,7 +17,7 @@ function Allmatches() {
   const [bu6, updatebu6] = useState(false);
   const [bu7, updatebu7] = useState(false);
   const [ranking, updatedranking] = useState(fil);
-  const [onlinedata, uponlinedata] = useState(contentdata);
+  const [onlinedata, uponlinedata] = useState([]);
 
   const typeFilter = (val, val1, val2) => {
     if (val2 === "bu1") {
@@ -170,6 +162,15 @@ function Allmatches() {
       updatebu7(false);
     }
   };
+  useEffect(() => {
+    fetch("https://svt.onrender.com/svtjson")
+      .then((response) => response.json())
+      .then((data1) => uponlinedata(data1))
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
   return (
     <div className="c_all">
       <div className="all">
@@ -187,8 +188,8 @@ function Allmatches() {
               <div className="all_news">
                 {onlinedata.map((e, i) => (
                   <div className="all_news_content" key={i}>
-                    <img src={e.imageUrl} className="all_news_img"></img>
-                    <div className="all_news_title">{e.title}</div>
+                    <img src={e.URL} className="all_news_img"></img>
+                    <div className="all_news_title">{e.TITLE}</div>
                   </div>
                 ))}
               </div>

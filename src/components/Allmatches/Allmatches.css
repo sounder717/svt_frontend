@@ -82,4 +82,16 @@
 }
 .all .all_Ranking table thead th {
   min-width: 100px;
+}
+
+@media all and (max-width: 1000px) {
+  .all {
+    flex-direction: column-reverse;
+  }
+  .all .all_comman {
+    width: 100%;
+  }
+  .all .all_Ranking {
+    width: 100%;
+  }
 }/*# sourceMappingURL=Allmatches.css.map */

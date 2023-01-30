@@ -90,3 +90,14 @@
     }
   }
 }
+@media all and (max-width: 1000px) {
+  .all {
+    flex-direction: column-reverse;
+    .all_comman {
+      width: 100%;
+    }
+    .all_Ranking {
+      width: 100%;
+    }
+  }
+}
