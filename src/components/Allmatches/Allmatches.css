@@ -84,14 +84,36 @@
   min-width: 100px;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1050px) {
   .all {
     flex-direction: column-reverse;
   }
   .all .all_comman {
     width: 100%;
   }
+  .all .all_comman .all_news {
+    width: 100%;
+  }
+  .all .all_comman .all_news .all_news_content {
+    height: 150px;
+  }
+  .all .all_comman .all_news .all_news_content .all_news_img {
+    width: 45%;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .all .all_comman .all_news .all_news_content .all_news_title {
+    color: black;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
   .all .all_Ranking {
     width: 100%;
+  }
+  .all .all_Ranking table {
+    text-align: center;
+  }
+  .all .all_Ranking table thead th {
+    width: 200px;
   }
 }/*# sourceMappingURL=Allmatches.css.map */

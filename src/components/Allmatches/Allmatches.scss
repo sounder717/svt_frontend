@@ -90,14 +90,38 @@
     }
   }
 }
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1050px) {
   .all {
     flex-direction: column-reverse;
     .all_comman {
       width: 100%;
+      .all_news {
+        width: 100%;
+        .all_news_content {
+          height: 150px;
+          .all_news_img {
+            width: 45%;
+            height: 100px;
+            border-radius: 20px;
+          }
+          .all_news_title {
+            color: black;
+            font-size: 1rem;
+            margin-left: 10px;
+          }
+        }
+      }
     }
     .all_Ranking {
       width: 100%;
+      table {
+        text-align: center;
+        thead {
+          th {
+            width: 200px;
+          }
+        }
+      }
     }
   }
 }
